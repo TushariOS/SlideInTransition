@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7854ECE4233BC47E009D19EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854ECE3233BC47E009D19EA /* AppDelegate.swift */; };
-		7854ECE6233BC47E009D19EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854ECE5233BC47E009D19EA /* ViewController.swift */; };
+		7854ECE6233BC47E009D19EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854ECE5233BC47E009D19EA /* MainViewController.swift */; };
 		7854ECE9233BC47E009D19EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7854ECE7233BC47E009D19EA /* Main.storyboard */; };
 		7854ECEB233BC47F009D19EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7854ECEA233BC47F009D19EA /* Assets.xcassets */; };
 		7854ECEE233BC47F009D19EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7854ECEC233BC47F009D19EA /* LaunchScreen.storyboard */; };
+		7854ECF6233BC5C3009D19EA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854ECF5233BC5C3009D19EA /* MenuViewController.swift */; };
+		7854ECF8233BCEDB009D19EA /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854ECF7233BCEDB009D19EA /* SlideInTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7854ECE0233BC47E009D19EA /* SlideInTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideInTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7854ECE3233BC47E009D19EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7854ECE5233BC47E009D19EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7854ECE5233BC47E009D19EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7854ECE8233BC47E009D19EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7854ECEA233BC47F009D19EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7854ECED233BC47F009D19EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7854ECEF233BC47F009D19EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7854ECF5233BC5C3009D19EA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7854ECF7233BCEDB009D19EA /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				7854ECE3233BC47E009D19EA /* AppDelegate.swift */,
-				7854ECE5233BC47E009D19EA /* ViewController.swift */,
+				7854ECE5233BC47E009D19EA /* MainViewController.swift */,
+				7854ECF5233BC5C3009D19EA /* MenuViewController.swift */,
+				7854ECF7233BCEDB009D19EA /* SlideInTransition.swift */,
 				7854ECE7233BC47E009D19EA /* Main.storyboard */,
 				7854ECEA233BC47F009D19EA /* Assets.xcassets */,
 				7854ECEC233BC47F009D19EA /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7854ECE6233BC47E009D19EA /* ViewController.swift in Sources */,
+				7854ECE6233BC47E009D19EA /* MainViewController.swift in Sources */,
+				7854ECF8233BCEDB009D19EA /* SlideInTransition.swift in Sources */,
+				7854ECF6233BC5C3009D19EA /* MenuViewController.swift in Sources */,
 				7854ECE4233BC47E009D19EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
